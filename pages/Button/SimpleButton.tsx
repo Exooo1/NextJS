@@ -1,6 +1,6 @@
 import {useState} from "react";
 
-export const SimpleButton = () => {
+const SimpleButton = () => {
     const arrayColor: Array<string> = ['blue', 'orange', 'red', 'yellow', 'green', 'pink','#000043','#85f607','#8f049f','#12eab0']
     const [color, setColor] = useState<number>(0)
     const handlerColor = () => {
@@ -10,3 +10,5 @@ export const SimpleButton = () => {
         <button onClick={handlerColor} style={{color: arrayColor[color], width: '100px', height: '60px'}}>color</button>
     </div>
 }
+
+export default SimpleButton;
