@@ -1,0 +1,25 @@
+.linkCategor {
+  background: #0370e5;
+  box-shadow: 0 0 10px black;
+  background-size: 300px 300px;
+
+  &:nth-child(1) {
+    background-image: url("https://i.pinimg.com/originals/92/10/b3/9210b35384912f0707fa2144d332d7cd.jpg");
+  }
+
+  &:nth-child(2) {
+    background-image: url("https://artfiles.alphacoders.com/865/86570.jpg");
+  }
+
+  &:nth-child(3) {
+    background-image: url("https://www.meme-arsenal.com/memes/0978206358a772255b494b839659c3fa.jpg");
+  }
+
+  &:nth-child(4) {
+    background-image: url("https://i.pinimg.com/736x/16/a8/ed/16a8edb96ba05368dcbd8aa77f60f63c.jpg");
+  }
+
+  h1 {
+    text-shadow: 0 0 10px black;
+  }
+}

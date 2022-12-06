@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 15vh;
+  font-family: Roboto;
+
+  h1 {
+    text-shadow: 0 0 20px #0370e5;
+  }
+
+  img {
+    width: 90px;
+    height: 90px;
+  }
+}

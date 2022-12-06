@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+
+  .container_content {
+    display: flex;
+    width: 610px;
+    height: 610px;
+    flex-wrap: wrap;
+
+    a {
+      margin: 5px 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 295px;
+      height: 300px;
+      border-radius: 10px;
+      transition: 1s;
+      opacity: 0.5;
+
+      &:hover {
+        opacity: 1;
+        transform: scale(1.1);
+      }
+    }
+  }
+}
